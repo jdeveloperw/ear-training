@@ -5,12 +5,22 @@
   "homepage": "https://github.com/jdeveloperw/ear-training",
   "license": "MIT",
   "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
+    "requirejs": "~2.1.9",
+    "requirejs-text": "~2.0.10",
     "html5-boilerplate": "~4.3.0",
+    "midi-converter": "git@github.com:mobyvb/midi-converter.git",
     "MIDI.js": "git@github.com:mudcube/MIDI.js.git"
   }
 }

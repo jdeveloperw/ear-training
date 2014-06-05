@@ -1,6 +1,12 @@
 # Setup
 - `npm install`
 
+# TODO
+- look at web audio api
+
+# Running
+- `coffee -o js -cw coffee`
+
 # Below from angular-seed projecdt
 
 # angular-seed — the seed for AngularJS apps
