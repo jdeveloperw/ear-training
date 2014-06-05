@@ -14,11 +14,8 @@
   <link rel="stylesheet" href="css/app.css"/>
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
+
 <body>
-  <ul class="menu">
-    <li><a href="#/view1">view1</a></li>
-    <li><a href="#/view2">view2</a></li>
-  </ul>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -26,7 +23,9 @@
 
   <div ng-view></div>
 
-  <div>Angular seed app: v<span app-version></span></div>
+  <div>Ear Trainer: v<span app-version></span></div>
+
+  <ng-include src="'partials/main.html'"></ng-include>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
@@ -38,5 +37,13 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+  <script src="bower_components/MIDI.js/js/MIDI/AudioDetect.js" type="text/javascript"></script>
+  <script src="bower_components/MIDI.js/js/MIDI/LoadPlugin.js" type="text/javascript"></script>
+  <script src="bower_components/MIDI.js/js/MIDI/Plugin.js" type="text/javascript"></script>
+  <script src="bower_components/MIDI.js/js/MIDI/Player.js" type="text/javascript"></script>
+  <script src="bower_components/MIDI.js/js/Window/DOMLoader.XMLHttp.js" type="text/javascript"></script>
+  <!-- extras -->
+  <script src="bower_components/MIDI.js/inc/Base64.js" type="text/javascript"></script>
+  <script src="bower_components/MIDI.js/inc/base64binary.js" type="text/javascript"></script>
 </body>
 </html>
