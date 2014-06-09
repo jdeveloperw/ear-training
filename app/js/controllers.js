@@ -8,7 +8,6 @@
       function PlayerController() {}
 
       PlayerController.prototype.play = function() {
-        console.log(MIDI);
         return MIDI.loadPlugin({
           soundfontUrl: "bower_components/MIDI.js/soundfont/",
           instrument: "acoustic_grand_piano",

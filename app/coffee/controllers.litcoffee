@@ -16,7 +16,6 @@ which the template can access.
         class PlayerController
           play: () ->
 
-            console.log MIDI
             MIDI.loadPlugin {
               soundfontUrl: "bower_components/MIDI.js/soundfont/",
               instrument: "acoustic_grand_piano",

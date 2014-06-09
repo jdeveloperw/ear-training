@@ -7,7 +7,7 @@
 # Running
 - `coffee -o js -cw coffee`
 
-# Below from angular-seed projecdt
+# Below from angular-seed project
 
 # angular-seed — the seed for AngularJS apps
 
