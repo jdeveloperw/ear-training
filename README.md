@@ -7,6 +7,9 @@
 # Running
 - `coffee -o js -cw coffee`
 
+# Libs
+- sergi/jsmidi · GitHub
+
 # Below from angular-seed project
 
 # angular-seed — the seed for AngularJS apps
